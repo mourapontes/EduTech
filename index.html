@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduTech - Aprendizado Personalizado</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>EduTech</h1>
+            <p>Plataforma de Aprendizado Personalizado</p>
+        </div>
+    </header>
+
+    <section id="sobre">
+        <div class="container">
+            <h2>Conheça a EduTech</h2>
+            <p>
+                A EduTech é uma plataforma inovadora para estudantes do ensino fundamental e médio que desejam aprender de forma personalizada e interativa. Com inteligência artificial e gamificação, ajudamos você a alcançar seu potencial máximo!
+            </p>
+        </div>
+    </section>
+
+    <section id="beneficios">
+        <div class="container">
+            <h2>Benefícios</h2>
+            <div class="beneficios-grid">
+                <div class="card">
+                    <h3>🎯 Aprendizado Personalizado</h3>
+                    <p>Conteúdo adaptado ao seu ritmo e estilo de aprendizado.</p>
+                    <i class="fas fa-info-circle icone-info" data-info="A EduTech usa IA para ajustar o conteúdo conforme suas necessidades."></i>
+                    <div class="info-texto"></div>
+                </div>
+                <div class="card">
+                    <h3>🎮 Gamificação</h3>
+                    <p>Desafios, recompensas e rankings para manter você motivado.</p>
+                    <i class="fas fa-info-circle icone-info" data-info="Ganhe pontos, medalhas e suba no ranking ao completar atividades."></i>
+                    <div class="info-texto"></div>
+                </div>
+                <div class="card">
+                    <h3>📊 Relatórios de Progresso</h3>
+                    <p>Acompanhe seu desempenho e receba sugestões de estudo.</p>
+                    <i class="fas fa-info-circle icone-info" data-info="Relatórios detalhados mostram seu progresso e áreas para melhorar."></i>
+                    <div class="info-texto"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta">
+        <div class="container">
+            <h2>Transforme sua forma de aprender!</h2>
+            <button id="inscrevaBtn">Inscreva-se Agora</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 EduTech. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Modal de Inscrição -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Inscreva-se na EduTech</h2>
+            <form id="inscricaoForm">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
